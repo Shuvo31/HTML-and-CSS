@@ -1,0 +1,14 @@
+.box{
+    max-width: 1000px;
+    height: auto;
+    background-color: aqua;
+    padding: 25px;
+    font-family: sans-serif;
+    color: black;
+    margin: auto;
+}
+@media(max-width: 500px){
+    .box{
+        background-color: antiquewhite;
+    }
+}
